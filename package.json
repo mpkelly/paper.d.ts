@@ -1,0 +1,9 @@
+{
+  "name": "paper.d.ts",
+  "version": "1.0.0",
+  "description": "Typescript definitions for paperjs",
+  "main": "paper.d.ts",
+  "scripts": {
+  },
+  "author": "mpkelly",
+}
