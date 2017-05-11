@@ -1,5 +1,5 @@
 {
-  "name": "paper.d.ts",
+  "name": "@types/paper",
   "version": "1.0.0",
   "description": "Typescript definitions for paperjs",
   "main": "paper.d.ts",
