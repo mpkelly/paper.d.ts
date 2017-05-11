@@ -1,7 +1,18 @@
 {
+  "dependencies": {},
+  "description": "TypeScript definitions for Paper.js",
+  "license": "MIT",
+  "main": "",
   "name": "@types/paper",
-  "version": "1.0.0",
-  "description": "Typescript definitions for paperjs",
-  "main": "paper.d.ts",
-  "author": "mpkelly"
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "readme": "# Installation\r\n> `npm install --save @types/paper`\r\n\r\n# Summary\r\nThis package contains type definitions for Paper.js (http://paperjs.org/).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/paper\r\n\r\nAdditional Details\r\n * Last updated: Fri, 10 Mar 2017 06:58:03 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Clark Stevenson <http://github.com/clark-stevenson>.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpkelly/paper.d.ts"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.0",
+  "version": "0.9.1"
 }
