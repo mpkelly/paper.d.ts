@@ -2771,6 +2771,7 @@ declare module 'paper' {
          */
         transform(matrix: Matrix): void;
 
+        ref: Segment;        
     }
     /**
      * The Curve object represents the parts of a path that are connected by two following Segment objects. The curves of a path can be accessed through its path.curves array.
