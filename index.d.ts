@@ -2881,6 +2881,15 @@ declare module 'paper' {
          * Checks if this curve is linear, meaning it does not define any curve handle.
          */
         isLinear(): boolean;
+        
+        /**
+        * An array of 8 float values, describing this curve’s geometry in four absolute x/y pairs (point1, handle1, handle2, point2). This format is used internally for efficient processing of curve geometries, e.g. when calculating intersections or bounds.        
+        *
+        * Note that the handles are converted to absolute coordinates.
+        *
+        * Read only.        
+        */        
+        values: number[];
 
         /**
          * TODO?
