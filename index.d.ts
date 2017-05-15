@@ -1007,6 +1007,7 @@ declare module 'paper' {
      */
     export class Item {
 
+        ref: any;
         /**
          * The tangential vector to the #curve at the given location.
          */
@@ -1793,9 +1794,7 @@ declare module 'paper' {
          */
         clipped: boolean;
 
-        transformContent: boolean;
-        
-        ref: any;
+        transformContent: boolean;               
     }
     /**
      * The Layer item represents a layer in a Paper.js project.
