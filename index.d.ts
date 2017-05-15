@@ -1794,6 +1794,8 @@ declare module 'paper' {
         clipped: boolean;
 
         transformContent: boolean;
+        
+        ref: any;
     }
     /**
      * The Layer item represents a layer in a Paper.js project.
